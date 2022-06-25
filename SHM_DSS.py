@@ -117,7 +117,13 @@ class AHP:
         max_eigen, CR, criteria_eigen = self.cal_weights(self.criteria)
         st.write('**准则层**')
         st.write('最大特征值{:<5f}'.format(max_eigen))
-        st.write('Relative consistency index (CR) = {:<5f}, 一致性检验{}通过'.format(CR, '' if CR < 0.1 else '不'))
+        st.write('Relative consistency index (CR) = {:<5f}'.format(CR))
+        if CR < 0.1:
+            st.success('一致性检验通过')
+        else:
+            st.error('一致性检验不通过，请更改权重')
+            return
+            
 
         st.write('准则层权重 = {}\n'.format(criteria_eigen))  #格式化输出
 
@@ -147,8 +153,9 @@ class AHP:
 
         st.write('\n**目标层**')
         st.write('参数权重 {}' .format(obj1))
-        st.write('最优选择是参数 {}'.format(np.argmax(obj)+1))
         st.write('优选参数排序为 {}'.format(np.argsort(-obj1)+1))
+        st.info('最优选择是参数 {}'.format(np.argmax(obj)+1))
+        
 
         return obj
 
