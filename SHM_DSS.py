@@ -390,7 +390,7 @@ fanwei = st.selectbox("The system monitors the range is:",
                     ("Global","Local","Either one"))
 
 
-st.info("he system monitors the range is: {}".format(fanwei)) 
+st.info("The system monitors the range is: {}".format(fanwei)) 
 
 zuhe.append(transdict2[fanwei])
 st.write('-----')
