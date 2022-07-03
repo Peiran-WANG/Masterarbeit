@@ -120,7 +120,7 @@ class AHP:
     def run(self):
         max_eigen, CR, criteria_eigen = self.cal_weights(self.criteria)
         st.write('**Criterion Layer**')
-        st.write('Criterion Layer Weight = {:.4}\n'.format(criteria_eigen))  #格式化输出
+        st.write('Criterion Layer Weight = {}\n'.format(criteria_eigen))  #格式化输出
         st.write('Maximum Eigenvalue = {:<5f}'.format(max_eigen))
         st.write('Relative consistency index (CR) = {:<5f}'.format(CR))
         if CR < 0.1:
