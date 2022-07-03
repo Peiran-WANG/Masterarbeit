@@ -119,7 +119,6 @@ class AHP:
 
     def run(self):
         max_eigen, CR, criteria_eigen = self.cal_weights(self.criteria)
-        critera_eigen_f = [float('{:.4f}'.format(i)) for i in criteria_eigen]
         st.write('**Criterion Layer**')
         st.write('Criterion Layer Weight = {}\n'.format(criteria_eigen_f))  #格式化输出
         st.write('Maximum Eigenvalue = {:<5f}'.format(max_eigen))
