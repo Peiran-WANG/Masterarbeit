@@ -337,7 +337,7 @@ st.write('This step uses a decision method based on literature knowledge base re
 zuhe = list()
 
 
-transdict2 = {"Magnetic metal": 0 ,"Non-magnetic metal": 1 ,"Polymers": 2,"Composites":3, "Ceramics":4, "Stree-Strain":5,"Vibration":6,"Acoustic Wave":7,"Impedance":8,"Time Domain":9,"Frequency Domain":10,"Time-frequency domain":11,"Global":12,"Local":13,"Active":14,"Passive":15,"Degree of damage":16,"Damage localization":17,"Life prediction":18,"Good accuracy":19,"Low environmental impact":20,"Good economic":21,"Either one":22}
+transdict2 = {"Magnetic metal": 0 ,"Non-magnetic metal": 1 ,"Polymers": 2,"Composites":3, "Ceramics":4, "Stree-Strain":5,"Vibration":6,"Acoustic Wave":7,"Impedance":8,"Time Domain":9,"Frequency Domain":10,"Time-frequency domain":11,"Global":12,"Local":13,"Active":14,"Passive":15,"Detection":16,"Location":17,"Assessment":18,"Good accuracy":19,"Low environmental impact":20,"Good economic":21,"Either one":22}
 
 
 #################################
@@ -413,7 +413,7 @@ st.write('-----')
 st.subheader('2.6 Please select the damage analysis function')
 
 fenxi = st.multiselect("The system damage analysis functions are:",
-                    options = ("Detection","Location","Prediction"),
+                    options = ("Detection","Location","Assessment"),
                     default = ("Degree of damage"))
 fenxi2 = ',\n'.join(fenxi)
 st.info("The system damage analysis functions are:  {}".format(fenxi2))
