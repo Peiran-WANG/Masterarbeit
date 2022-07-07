@@ -414,7 +414,7 @@ st.subheader('2.6 Please select the damage analysis function')
 
 fenxi = st.multiselect("The system damage analysis functions are:",
                     options = ("Detection","Location","Assessment"),
-                    default = ("Degree of damage"))
+                    default = ("Detection"))
 fenxi2 = ',\n'.join(fenxi)
 st.info("The system damage analysis functions are:  {}".format(fenxi2))
 
