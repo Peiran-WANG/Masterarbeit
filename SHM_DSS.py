@@ -51,7 +51,7 @@ st.write('For monitoring systems, which do you think is more important,  please 
 
 # 第一个
 
-DSS1_1 = st.select_slider("1. **A: Parameter Sensitivity** compared to **B: Damage Correlation**", 
+DSS1_1 = st.select_slider("1. A: Parameter Sensitivity compared to B: Damage Correlation", 
                         ("9","7","5","3","1","1/3","1/5","1/7","1/9"),"1")
 if DSS1_1:
     f"Your choice is: {transdict[DSS1_1]}"
@@ -60,19 +60,19 @@ st.write('-----')
 
 # 第二个
 
-DSS1_2 = st.select_slider("A: Parameter Sensitivity vs B: Monitoring Economy", 
+DSS1_2 = st.select_slider("2. A: Parameter Sensitivity compared to B: Monitoring Economy", 
                         ("9","7","5","3","1","1/3","1/5","1/7","1/9"),"1")
 if DSS1_2:
-    f"**A: Parameter Sensitivity** compared to **B: Monitoring Economy**, do you think: {transdict[DSS1_2]}"
+    f"Your choice is: {transdict[DSS1_2]}"
 
 st.write('-----')
 
 # 第三个
 
-DSS1_3 = st.select_slider("A: Damage Correlation vs B: Monitoring Economy", 
+DSS1_3 = st.select_slider("3. A: Damage Correlation compared to B: Monitoring Economy", 
                         ("9","7","5","3","1","1/3","1/5","1/7","1/9"),"1")
 if DSS1_3:
-    f"**A: Damage Correlation** compared to **B: Monitoring Economy**, do you think: {transdict[DSS1_3]}"
+    f"Your choice is: {transdict[DSS1_3]}"
 
 st.write('-----')
 
