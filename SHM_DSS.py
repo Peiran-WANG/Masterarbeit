@@ -51,10 +51,10 @@ st.write('For monitoring systems, which do you think is more important,  please 
 
 # 第一个
 
-DSS1_1 = st.select_slider("A: Parameter Sensitivity vs  B: Damage Correlation", 
+DSS1_1 = st.select_slider("1. **A: Parameter Sensitivity** compared to **B: Damage Correlation**", 
                         ("9","7","5","3","1","1/3","1/5","1/7","1/9"),"1")
 if DSS1_1:
-    f"**A: Parameter Sensitivity** compared to **B: Damage Correlation**, do you think: {transdict[DSS1_1]}"
+    f"Your choice is: {transdict[DSS1_1]}"
 
 st.write('-----')
 
