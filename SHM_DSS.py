@@ -46,9 +46,10 @@ st.subheader('1.2 criterion Importance Assessment')
 
 transdict = {"1/9":"**B** Absolute importance", "1/7":"**B** Very strong importance","1/5":"**B** Strong importance","1/3":"**B** Moderate importance", "1":"**A** and **B** Equal importance","3":"**A** Moderate importance", "5":"**A** Strong importance","7":"**A** Very strong importance","9":"**A** Absolute importance"}
 
+st.write('For monitoring systems, which do you think is more important,  please make a choice.')
+
 
 # 第一个
-st.write('1. For monitoring systems, which do you think is more important,  **A: Parameter Sensitivity** or **B: Damage Correlation** of monitoring parameters?')
 
 DSS1_1 = st.select_slider("A: Parameter Sensitivity vs  B: Damage Correlation", 
                         ("9","7","5","3","1","1/3","1/5","1/7","1/9"),"1")
@@ -57,20 +58,18 @@ if DSS1_1:
 
 st.write('-----')
 
-st.write('2. For monitoring systems, which do you think is more important,   **A: Parameter Sensitivity** or **B: Monitoring Economy** of monitoring parameters?')
+# 第二个
 
-DSS1_2 = st.select_slider("A: Parameter Sensitivity vs Monitoring Economy", 
+DSS1_2 = st.select_slider("A: Parameter Sensitivity vs B: Monitoring Economy", 
                         ("9","7","5","3","1","1/3","1/5","1/7","1/9"),"1")
 if DSS1_2:
     f"**A: Parameter Sensitivity** compared to **B: Monitoring Economy**, do you think: {transdict[DSS1_2]}"
 
 st.write('-----')
 
-# 第二个
-st.write('3. For monitoring systems, which do you think is more important,   **A: Damage Correlation** or **B: Monitoring Economy** of monitoring parameters?')
+# 第三个
 
-
-DSS1_3 = st.select_slider("A: Damage Correlation vs Monitoring Economy", 
+DSS1_3 = st.select_slider("A: Damage Correlation vs B: Monitoring Economy", 
                         ("9","7","5","3","1","1/3","1/5","1/7","1/9"),"1")
 if DSS1_3:
     f"**A: Damage Correlation** compared to **B: Monitoring Economy**, do you think: {transdict[DSS1_3]}"
