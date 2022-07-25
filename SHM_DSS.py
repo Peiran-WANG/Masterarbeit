@@ -369,7 +369,7 @@ if page == p_names[las][2]:
     a6 = np.array([0,0,0,0,     0,0,0,0,     0,0,0,  0,0,0,      0,0,      0,0,0,1,    0,0,-10,0])
 
 
-    trans = {0:"Natural Frequency",1:"Mode Shape-Curvature",2:"Frequency response function",3:"Modal strain energy",4:"Electro Mechanical Impedance",5:"Lamb Wave",6:"Artificial Intelligence"}
+    trans = {0:"Natural Frequency",1:"Mode Shape-Curvature",2:"Frequency response function",3:"Stress based",4:"Electro Mechanical Impedance",5:"Lamb Wave",6:"Artificial Intelligence"}
 
     st.write('-----')
 
