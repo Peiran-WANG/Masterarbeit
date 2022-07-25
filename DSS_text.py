@@ -112,7 +112,7 @@ k3_31 = ("Please select the attributes related to the monitoring method accordin
 k3_4 =("Recommended order of monitoring methods","Empfohlene Reihenfolge der Überwachungsmethoden","决策出监测方法的优先度排序")
 
 
-k3_5 = ("References of optimal monitoring methods","Quellen für optimale Überwachungsmethoden","最佳监测方法有关的参考资料")
+k3_5 = ("References of optimal monitoring method","Quellen für optimale Überwachungsmethode","最佳监测方法有关的参考资料")
 
 k3_51 = ("Park, K., Torbol, M., & Kim, S. (2018). Vision-based natural frequency identification using laser speckle imaging and parallel computing. _Computer-Aided Civil and Infrastructure Engineering_","Rucevskis, S., Janeliukstis, R., Akishin, P., & Chate, A. (2016). Mode shape-based damage detection in plate structure without baseline data. _Structural Control and Health Monitoring_","Medeiros, R., Souza, G., Marques, D., Flor, F., & Tita, V. (2021). Vibration-based structural monitoring of bi-clamped metal-composite bonded joint: Experimental and numerical analyses. _The Journal of Adhesion_","Nauman, S.; Cristian, I.; Koncar, V. (2011): Simultaneous application of fibrous piezoresistive sensors for compression and traction detection in glass laminate composites. _Sensors_","Du, F., Wang, G., Weng, J., Fan, H., & Xu, C. (2022). High-precision probabilistic imaging for interface debonding monitoring based on electromechanical impedance. _AIAA Journal_","Zhao, X., Royer, R. L., Owens, S. E., & Rose, J. L. (2011). Ultrasonic lamb wave tomography in structural health monitoring. _Smart Materials and Structures_","Meruane, V., Aichele, D., Ruiz, R., & López Droguett, E. (2021). A deep learning framework for damage assessment of composite sandwich structures. _Shock and Vibration, 2021_")
 
