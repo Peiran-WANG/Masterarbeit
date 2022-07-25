@@ -106,7 +106,7 @@ k3_21 = ("In the following tables, the alternative monitoring methods in the kno
 
 k3_3 = ('Selection of attributes for monitoring methods','Auswahl von Eigenschaften für Überwachungsmethoden','监测方法的属性选择')
 
-k3_4 = ("Please select the attributes related to the monitoring method according to the actual situation and wishes","Bitte wählen Sie die Attribute für die Überwachungsmethode entsprechend der tatsächlichen Situation und den Wünschen aus", "请根据实际情况和意愿，选择监测方法相关的属性")
+k3_31 = ("Please select the attributes related to the monitoring method according to the actual situation and wishes","Bitte wählen Sie die Attribute für die Überwachungsmethode entsprechend der tatsächlichen Situation und den Wünschen aus", "请根据实际情况和意愿，选择监测方法相关的属性")
 
 
 k3_4 =("Recommended order of monitoring methods","Empfohlene Reihenfolge der Überwachungsmethoden","决策出监测方法的优先度排序")
