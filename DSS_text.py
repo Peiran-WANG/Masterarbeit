@@ -4,7 +4,7 @@
 sbar_sbox_0 = ("Please Select A Chapter","Bitte wählen Sie ein Kapitel","请选择一个章节")
 author = ("Autor: Peiran WANG","Autor: Peiran WANG","作者：王沛冉")
 
-p_names = (("Introduction","Monitoring parameter selection","monitoring method selection"),
+p_names = (("Introduction","Monitoring parameter selection","Monitoring method selection"),
            ("Einführung","Auswahl der Überwachungsparameter","Auswahl der Überwachungsmethode"),
            ("决策支持系统介绍","最佳监测参数选择","最佳监测方法选择"))
 
