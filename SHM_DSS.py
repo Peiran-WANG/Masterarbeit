@@ -424,7 +424,7 @@ if page == p_names[las][2]:
         
         bad1 = ', '.join(bad)
 
-        st.subheader("Decision results of monitoring methods")
+        st.subheader("Decision result for monitoring method")
         st.error('Non-recommended monitoring methods: {}'.format(bad1))
         st.success('Optimal monitoring method is: {}'.format(amax_t))
 
